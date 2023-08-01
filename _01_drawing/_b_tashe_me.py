@@ -46,7 +46,7 @@ if __name__ == '__main__':
     #    add the file to the folder with your code
 
     # 2. Call the set_background() function with the image filename inside of the parenthesis
-    set_background('emoji.png')
+    set_background()
 
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
     # moustache = add_moustache('moustache1.gif')
