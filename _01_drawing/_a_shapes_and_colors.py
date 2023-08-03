@@ -13,6 +13,7 @@ if __name__ == '__main__':
     bobby1545.speed(2)
     # Set your turtle's color using .color('green') and .pencolor('blue')
     bobby1545.color('dark green')
+    bobby1545.pencolor('dark green')
     # Move your turtle forward using .forward(100)
     bobby1545.forward(5)
     # TEST    Did your turtle move forward?
@@ -41,4 +42,4 @@ if __name__ == '__main__':
     # Draw 3 more shapes with different fill colors!
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
-
+    turtle.done

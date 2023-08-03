@@ -16,15 +16,15 @@ def set_background(filename):
 
 
 def add_moustache(filename):
-    m = turtle.Turtle()
 
-    m.hideturtle()
-    window.addshape(filename)
-    m.shape(filename)
-    m.penup()
-    m.speed(0)
 
-    return m
+    turtle.hideturtle()
+    window.addshape
+    turtle.shape()
+    turtle.color()
+    turtle.speed()
+
+    return
 
 
 # ====================== DO NOT EDIT THE CODE ABOVE ===========================
@@ -35,7 +35,7 @@ def screen_clicked(x, y):
 
     # 4. Show your moustache by calling the .showturtle() function
     # moustache.showturtle()
-
+    moustache.showturtle(self=turtle)
     # 5. Move your moustache to a new location using .goto(x, y)
 
 
@@ -44,13 +44,12 @@ if __name__ == '__main__':
 
     # 1. Find an image of a face online that you want to put a moustache on and
     #    add the file to the folder with your code
-
     # 2. Call the set_background() function with the image filename inside of the parenthesis
-    set_background()
+    set_background(face.png)
 
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
     # moustache = add_moustache('moustache1.gif')
-
+    moustache = add_moustache('moustache1.gif')
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
-    turtle.done()
+    turtle.done

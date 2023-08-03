@@ -19,17 +19,17 @@ def turtle_clicked(x, y):
     print('turtle clicked!')
 
     # 8. Make a for loop to run the next instructions 3 times
-        
+
         # 9. Make the turtle spin 360 degrees using the .right() method
 
 
-# Returns a random color!
+# Returns a random color!o
         # 10. Use the .color() method and getRandomColor() function to change
         # the color of the turtle,
         # myTurtle.color(get_random_color())
 
 
-if __name__ == '__main__'
+
     window = turtle.Screen()
     window.setup(width=0.75, height=0.8, startx=0, starty=0)
     
@@ -42,8 +42,7 @@ if __name__ == '__main__'
     #     #    my_turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
     turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
     #     # 5. Uncomment the following line and replace 'my_turtle' with your turtle
-    turtle.onclick('fun')
+    turtle.onclick(fun=turtle)
 # ===================== DO NOT EDIT THE CODE BELOW ============================
-    window.onclick(screen_clicked)
-    turtle.done
-
+    window.onclick(turtle_clicked('x, y'))
+    turtle.d
