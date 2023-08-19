@@ -16,15 +16,15 @@ def set_background(filename):
 
 
 def add_moustache(filename):
+    m = turtle.Turtle()
 
+    m.hideturtle()
+    window.addshape(filename)
+    m.shape(filename)
+    m.penup()
+    m.speed(0)
 
-    turtle.hideturtle()
-    window.addshape
-    turtle.shape()
-    turtle.color()
-    turtle.speed()
-
-    return
+    return m
 
 
 # ====================== DO NOT EDIT THE CODE ABOVE ===========================
@@ -35,9 +35,9 @@ def screen_clicked(x, y):
 
     # 4. Show your moustache by calling the .showturtle() function
     # moustache.showturtle()
-    moustache.showturtle(self=turtle)
+    moustache.showturtle()
     # 5. Move your moustache to a new location using .goto(x, y)
-
+    moustache.goto(x, y)
 
 if __name__ == '__main__':
     window = turtle.Screen()
@@ -52,4 +52,4 @@ if __name__ == '__main__':
     moustache = add_moustache('moustache1.gif')
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
-    turtle.done
+    turtle.done()
