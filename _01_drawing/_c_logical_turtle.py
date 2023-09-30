@@ -42,7 +42,7 @@ if __name__ == '__main__':
     bob.color('green')
     # 4. Set and new width, length, and outline of our turtle
     #     #    my_turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
-    bob.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
+    bob.turtlesize(stretch_wid=20, stretch_len=20, outline=20)
     #     # 5. Uncomment the following line and replace 'my_turtle' with your turtle
     bob.onclick(turtle_clicked)
 # ===================== DO NOT EDIT THE CODE BELOW ============================

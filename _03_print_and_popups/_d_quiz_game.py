@@ -3,9 +3,9 @@ from tkinter import messagebox, simpledialog, Tk
 # Create an if-main code block, *hint, type main then ctrl+space to auto-complete
     
     # Make a new window variable, window = Tk()
-    
+    window = Tk()
     # Hide the window using the window's .withdraw() method
-    
+    window.withdraw()
     # 1. Create a variable to hold the user's score. Set it equal to zero. 
 
     # ASK A QUESTION AND CHECK THE ANSWER
