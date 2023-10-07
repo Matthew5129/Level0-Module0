@@ -42,5 +42,5 @@ if __name__ == '__main__':
     # and ask the player different questions.
 
     # Run the window's .mainloop() method
-
+    window.mainloop()
     pass

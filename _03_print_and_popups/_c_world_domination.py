@@ -16,3 +16,4 @@ if __name__ == '__main__':
     if username == "no":
         "Sign up for classes at The League"
     # Run the window's .mainloop() method
+    window.mainloop()
