@@ -13,7 +13,9 @@ if __name__ == '__main__':
     # ASK A QUESTION AND CHECK THE ANSWER
     username = simpledialog.askstring(title="user", prompt="Who warned us about Entity303?")
     if username== "Herobrine":
-
+        score = score+1
+    else:
+        score = score-1
     #      // 2.  Ask the user a question 
     username = simpledialog.askstring(title="user", prompt="What is the bloody version of sonic?")
     #      // 3.  Use an if statement to check if their answer is correct
@@ -35,18 +37,18 @@ if __name__ == '__main__':
         score = score+1
     else:
         score = score-1
-    username = simpledialog.askstring(title="user", prompt="what is the creepypasta word for uglier and creepier versions of notch, dream, Mr. Beast, etc.?")
-    if username== "unearthed":
+    username = simpledialog.askstring(title="user", prompt="what is the creepypasta word for uglier and creepier versions of notch, dream, Mr. Beast, Dream, Tommyinnit, and DanTDM?")
+    if username== "Unearthed":
         score = score+1
     else:
         score = score-1
-    username = simpledialog.askstring(title="CHALLENGE QUESTION", prompt="What creepypasta entity was originally from Zelda?")
-    if username== "Lunar Moon":
+    username = simpledialog.askstring(title="CHALLENGE QUESTION", prompt="what creepypasta entity has purple eyes, the size of a player, and is black? Hint: it is not Ender Creeper!")
+    if username== "Ender Dream":
         score = score+1
     else:
         score = score-1
     # After all the questions have been asked, tell the user their final score
     # remember to convert your variable to a string using the str() function 
-    
+    window.str()
     # Run the window's .mainloop() method
     window.mainloop()
