@@ -47,6 +47,21 @@ if __name__ == '__main__':
         score = score+1
     else:
         score = score-1
+    username = simpledialog.askstring(title="user", prompt="name the .exe creepypasta entity who can force-choke you in space")
+    if username== "Darth Vader.exe":
+        score = score+1
+    else:
+        score = score-1
+    username = simpledialog.askstring(title="user", prompt=" which creepypasta entity can kill you in real life and pretend to be different players that are your friends?")
+    if username== "the Caretaker":
+        score = score+1
+    else:
+        score = score-1
+    username = simpledialog.askstring(title="CHALLENGE QUESTION 2", prompt="which creepypasta entity is old and is a blood entity?")
+    if username== "Blood Villager":
+        score = score+1
+    else:
+        score = score-1
     # After all the questions have been asked, tell the user their final score
     # remember to convert your variable to a string using the str() function 
     window.str()
