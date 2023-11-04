@@ -82,9 +82,10 @@ if __name__ == '__main__':
     #    and initialize them:
     #    left_eye  = Eye(eye=my_turtle, x=-34, y=11, radius=30)
     #    right_eye = Eye(eye=my_turtle, x=40, y=-5, radius=30)
-
+    left_eye  = Eye(eye=turtle, x=-34, y=11, radius=30)
+    right_eye = Eye(eye=turtle, x=40, y=-5, radius=30)
     # 9. Call the .draw() method on BOTH eye variables
-
+    turtle.draw()
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
